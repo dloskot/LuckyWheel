@@ -108,8 +108,8 @@ open class LuckyWheelView : ConstraintLayout, PielView.PieRotateListener, PielVi
             postSpinListener!!.onPostSpinComplete()
 
         wheelSliceView!!.bindWheelCard(mLuckyItemList!![index])
-        wheelSliceView!!.visibility = View.VISIBLE
-        wheelSliceView!!.animateSlice()
+        //wheelSliceView!!.visibility = View.VISIBLE
+        //wheelSliceView!!.animateSlice()
     }
 
     override fun onSegmentHit(spinDirection: PielView.SpinDirection) {
