@@ -107,7 +107,7 @@ open class LuckyWheelView : ConstraintLayout, PielView.PieRotateListener, PielVi
         if (postSpinListener != null)
             postSpinListener!!.onPostSpinComplete()
 
-        wheelSliceView!!.bindWheelCard(mLuckyItemList!![index])
+        //wheelSliceView!!.bindWheelCard(mLuckyItemList!![index])
         //wheelSliceView!!.visibility = View.VISIBLE
         //wheelSliceView!!.animateSlice()
     }
