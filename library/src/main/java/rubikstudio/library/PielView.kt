@@ -309,9 +309,7 @@ open class PielView : View {
 
         if (textColor == 0)
             mTextPaint!!.color = if (isColorDark(backgroundColor)) -0x1 else -0x1000000
-
         val typeface = Typeface.createFromAsset(context.assets, "fonts/heebo.ttf")
-
         mTextPaint!!.typeface = typeface
         mTextPaint!!.textAlign = Paint.Align.LEFT
         mTextPaint!!.textSize = mTopTextSize.toFloat()
@@ -342,8 +340,7 @@ open class PielView : View {
 
         if (textColor == 0)
             mTextPaint!!.color = if (isColorDark(backgroundColor)) -0x1 else -0x1000000
-
-        val typeface = Typeface.create("heebo", Typeface.BOLD)
+        val typeface = Typeface.createFromAsset(context.assets, "fonts/heebo.ttf")
         mTextPaint!!.typeface = typeface
         mTextPaint!!.textSize = mSecondaryTextSize.toFloat()
         mTextPaint!!.textAlign = Paint.Align.LEFT
